@@ -1,0 +1,15 @@
+Design Patterns — What, Why & GOF Classification
+Singleton Pattern — One Instance & Global Access
+Factory & Factory Method Pattern — Object Creation
+Builder Pattern — Complex Object Construction
+Prototype Pattern — Object Cloning & Deep vs Shallow Copy
+Adapter Pattern — Making Incompatible Interfaces Work Together
+Decorator Pattern — Dynamically Adding Responsibilities
+Proxy Pattern — Controlled Access & Spring AOP
+Facade Pattern — Simplifying Complex Subsystems
+Iterator Pattern — Sequential Access Without Exposing Representation
+Strategy / Policy Pattern — Interchangeable Algorithms
+Chain of Responsibility — Request Processing Chain
+Observer Pattern — Publisher–Subscriber & Notifications
+Template Method Pattern — Fixed Algorithm Skeleton
+MVC Pattern — Separation of Model, View & Controller

@@ -1,0 +1,72 @@
+Fundamentals:
+----------------
+Process, Program & Thread — OS Execution Fundamentals
+CPU Cores, Scheduling & Context Switching — How Concurrency Works
+Process vs Thread — Memory, Stack, Heap & Execution State
+Concurrency vs Parallelism — Single-Core vs Multi-Core Execution
+Java Thread Fundamentals — Lifecycle, Thread Creation & Runnable
+
+
+Java Thread Lifecycle
+--------------------
+Thread Lifecycle — NEW → RUNNABLE → BLOCKED / WAITING / TIMED_WAITING → TERMINATED
+Thread Scheduling & State Transitions — CPU Allocation, Context Switching & RUNNABLE Reality
+Java Thread Methods — start(), sleep(), yield(), wait(), notify(), interrupt(), isAlive() & join()
+sleep() vs wait() vs yield() vs join() — Precise Behavior, Locks & Thread Coordination
+
+Java Thread Fundamentals — Creating Threads with Thread and Runnable
+Synchronization — Race Condition, Critical Section, Lock & synchronized
+Inter-Thread Communication — wait(), notify() & notifyAll()
+Producer-Consumer — Wrong Implementation → wait/notify → BlockingQueue
+Deadlock, volatile & Thread-Dump Analysis — Diagnosing Real Concurrency Problems
+
+Java Memory Model (JMM) — Why Java 5 Needed a New Memory Model
+Instruction Reordering & Field Visibility — The Multithreading Memory Problem
+volatile — Visibility, Ordering & the Java Memory Model
+Happens-Before — The Core Rule of Java Memory Visibility
+JMM Synchronization — volatile vs synchronized & Safe Memory Access
+Broken Double-Checked Locking — How Java 5+ Fixed Singleton with volatile
+
+
+Modern Java Concurrency
+---------------------------
+01 — Java 5: java.util.concurrent — The Concurrency Revolution
+02 — Java 7: Fork/Join Framework & Work Stealing
+03 — Java 8: Parallel Streams — When & When NOT to Use
+04 — Java 9: Flow API & Reactive Concurrency
+Java 9 Flow और Reactive Streams का relationship
+05 — Modern Java: Virtual Threads — The Big Shift
+06 — Modern Java: Structured Concurrency & Scoped Values
+07 — Java Concurrency Evolution: Final Roadmap & Decision Guide
+
+Java Util Concurrency JUC and F&Java
+----------------------------------
+
+Java Thread Pool
+----------------------
+01 — Why Thread Pool?
+02 — Java Executor Framework
+03 — Thread vs Thread Pool
+04 — ExecutorService with Runnable
+05 — Callable, Future & Result
+06 — How ThreadPoolExecutor Works Internally
+07 — Types of Thread Pools
+08 — Choosing Pool Size: CPU vs I/O
+09 — ThreadPoolExecutor Customization
+10 — Queue Types in Thread Pools
+11 — Task Rejection & Rejection Policies
+12 — Executor Lifecycle, Scheduling & Future Caution
+
+Utility classes
+------------------------
+01 — Java Semaphore: Controlling Access to Limited Resources
+02 — Java CountDownLatch: Waiting for Multiple Tasks to Complete
+03 — Java CyclicBarrier: Synchronizing Multiple Threads at a Common Point
+04 — Java Synchronizers: Exchanger & Phaser — Advanced/Niche Tools
+
+Java Concurrent Collections
+---------------------------------
+01 — Java Concurrent Collections: Why Do We Need Them?
+02 — ConcurrentHashMap: High-Concurrency Map
+03 — CopyOnWriteArrayList: Read-Heavy Concurrent List
+04 — CopyOnWriteArraySet + Concurrent Collections Decision Guide

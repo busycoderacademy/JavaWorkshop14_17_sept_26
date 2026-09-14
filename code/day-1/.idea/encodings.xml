@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/java-core-oop-code-samples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-core-oop-code-samples/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-session3-exception-io/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-session3-exception-io/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-session3-generics-collections/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-session3-generics-collections/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-session4-streams/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-session4-streams/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
