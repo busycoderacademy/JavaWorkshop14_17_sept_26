@@ -4,9 +4,9 @@ import com.bankapp.dto.Account;
 import com.bankapp.exceptions.BankAccountNotFoundException;
 import com.bankapp.exceptions.NotSufficientFundException;
 import com.bankapp.repository.AccountRepo;
-import com.bankapp.repository.AccountRepoMapImpl;
 
 import java.math.BigDecimal;
+import java.sql.SQLException;
 import java.util.List;
 //Service layer is the aka brain of ur application
 //SL=BL (use case logic)+ Cross cutting concerns (logging, security, transaction management) xxilities
@@ -21,7 +21,7 @@ public class AccountServiceImpl implements  AccountService {
     }
 
     @Override
-    public List<Account> getAllAccounts() {
+    public List<Account> getAllAccounts()  {
         //extra logic
         return accountRepo.getAllAccounts();
     }

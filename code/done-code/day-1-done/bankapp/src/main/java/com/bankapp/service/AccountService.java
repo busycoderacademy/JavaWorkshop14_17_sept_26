@@ -3,6 +3,7 @@ package com.bankapp.service;
 import com.bankapp.dto.Account;
 
 import java.math.BigDecimal;
+import java.sql.SQLException;
 import java.util.List;
 
 public interface AccountService {

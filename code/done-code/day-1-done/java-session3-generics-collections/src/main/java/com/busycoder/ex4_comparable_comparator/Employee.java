@@ -1,6 +1,16 @@
 package com.busycoder.ex4_comparable_comparator;
+
+import java.util.Comparator;
+
+//U need extra sort sequence: - Comparator
+class EmployeeSorterAsPerName implements Comparator<Employee> {
+    @Override
+    public int compare(Employee o1, Employee o2) {
+        return o1.getName().compareTo(o2.getName());
+    }
+}
 //Demo Comparable and comparator
-public class Employee  {
+public class Employee implements Comparable<Employee> {
     private final int id;
     private final String name;
     private final double salary;
@@ -27,5 +37,10 @@ public class Employee  {
     @Override
     public String toString() {
         return "[" + id + ", " + name + ", " + salary + "]";
+    }
+
+    @Override
+    public int compareTo(Employee o) {
+        return Integer.compare(this.id, o.id);
     }
 }

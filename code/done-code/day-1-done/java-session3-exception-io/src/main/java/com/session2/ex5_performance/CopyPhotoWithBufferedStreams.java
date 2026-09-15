@@ -4,17 +4,19 @@ import java.io.*;
 
 public class CopyPhotoWithBufferedStreams {
     public static void main(String[] args) throws IOException {
-        BufferedInputStream fis = new BufferedInputStream(new FileInputStream("/home/raj/Desktop/photo/mali.jpg"));
+        BufferedInputStream fis = new BufferedInputStream
+                (new FileInputStream("c://demo//mali.jpg"));
 
-        BufferedOutputStream fos = new BufferedOutputStream(new FileOutputStream("/home/raj/Desktop/photo/mali_copy.jpg"));
-        long start = System.currentTimeMillis();
+        BufferedOutputStream fos = new BufferedOutputStream
+                (new FileOutputStream("c://demo//mali_copy2.jpg"));
+        long start = System.nanoTime();
         int byteRead = 1;
         while ((byteRead = fis.read()) != -1) {
             fos.write(byteRead);
         }
         fis.close();
         fos.close();
-        long end = System.currentTimeMillis();
-        System.out.println("time taken: " + (end - start) + " ms");
+        long end = System.nanoTime();
+        System.out.println("time taken: " + (end - start) + " ns");
     }
 }
